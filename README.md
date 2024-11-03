@@ -39,14 +39,14 @@ Data used for this project was an excel data provided by the Incubator Hub LITA 
 
 ### Data Description
 ---
-The dataset includes the following fields:
-   1. Customer ID : Unique identifier givemn to each customers
-   2. Products: Items sold in the retail store
-   3. Region: Regions sales were made from
-   4. Order Date: Dates transactions were made
-   5. Quantity: Quantity of products been sold
-   6. Unit Price: Price per items
-   7. Total Sales: Total amount of sales made for the items
+- The dataset includes the following fields:
+    1. Customer ID : Unique identifier givemn to each customers
+    2. Products: Items sold in the retail store
+    3. Region: Regions sales were made from
+    4. Order Date: Dates transactions were made
+    5. Quantity: Quantity of products been sold
+    6. Unit Price: Price per items
+    7. Total Sales: Total amount of sales made for the items
 
 ### Tools used
 ---
