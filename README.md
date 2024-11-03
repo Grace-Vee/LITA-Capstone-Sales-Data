@@ -112,8 +112,6 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 
 ![sales SQL 1](https://github.com/user-attachments/assets/4ba6010c-3b54-4c9d-8272-5331fad24469)
 
-![sales SQL 2](https://github.com/user-attachments/assets/f57671be-b148-4315-8fb4-a58eca77aad1)
-
 ![sales SQL 3](https://github.com/user-attachments/assets/0d49d72f-04c9-4142-98bc-27416aea075f)
 
 ![sales SQL 4](https://github.com/user-attachments/assets/9d24d697-ede9-441b-9ed3-caf14fe8c8c4)
