@@ -108,4 +108,22 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 
 ![Sales Visual](https://github.com/user-attachments/assets/58222fc8-b20c-44b5-91dd-953efeafb668)
 
+![sales chats](https://github.com/user-attachments/assets/9fe72e3e-27fe-46d0-8c5d-fd97a2db2364)
 
+![sales SQL 1](https://github.com/user-attachments/assets/4ba6010c-3b54-4c9d-8272-5331fad24469)
+
+![sales SQL 2](https://github.com/user-attachments/assets/f57671be-b148-4315-8fb4-a58eca77aad1)
+
+![sales SQL 3](https://github.com/user-attachments/assets/0d49d72f-04c9-4142-98bc-27416aea075f)
+
+![sales SQL 4](https://github.com/user-attachments/assets/9d24d697-ede9-441b-9ed3-caf14fe8c8c4)
+
+![sales SQL 5](https://github.com/user-attachments/assets/0de4d157-aa46-43a9-a524-4539ff82bc6b)
+
+![sales SQL 6](https://github.com/user-attachments/assets/4a88e5ff-b0fd-4fed-b123-f1889dc8899a)
+
+![sales SQL 7](https://github.com/user-attachments/assets/dc6261cd-0f81-42cf-851c-4d92ddc8f135)
+
+![sales SQL 8](https://github.com/user-attachments/assets/8be58cd9-8c5e-4934-9f84-f8a6147ee2ba)
+
+![sales SQL](https://github.com/user-attachments/assets/5f355db7-15a6-4f0a-9abe-0c0c0479b609)
