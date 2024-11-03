@@ -5,9 +5,7 @@
 ## Outline
 [Project Overview](#project-overview)
 
-[Data Sources](#Data-sources)
-
-[Data Description](#data-description)
+[Data Sources](#data-sources)
 
 [Data Description](#data-description)
 
@@ -64,18 +62,50 @@ Data used for this project was an excel data provided by the Incubator Hub LITA 
 -  GitHub [Download Here](https://www.github.com)
      1. For Portfolio Building
 
- ### Data Cleaning and preparation
+### Data Cleaning and preparation
 ---
 During the initial phase of the data entry, the folowing actions were performed
      1.  Data quality was ensured by correcting any spelling errors, removing duplicate entries, and addressing 
          missing values.
      2.  Standardization: Used find and replace to standardize certain fields
      3.  Data import from Excel to SQL and Power BI
-
- ### Data Transformation:
+     
+### Data Transformation:
  ---
-    1. Data Types and Formatting: This was done to ensure all data fields were assigned the correct data types, with numerical fields formatted as whole numbers, text as text and date 
-       fields set to date format. This was also done to thoroughly clean, remove issues with data and increase column quality to 100%
-    2. Sorting: Sorted the dataset by the Date column to organize transactions chronologically.
-    3. Created New Columns: Added a new column to have more calculations like Revenue
-    
+ - Data was transformed to thoroughly clean, remove issues with data and increase column quality, column distribution and profile to 100%
+      1. Data Types and Formatting: This was done to ensure all data fields were assigned the correct data types, with numerical fields formatted as whole numbers, text as text
+          and date fields set to date format. 
+      3. Sorting: Sorted the dataset by the Date column to organize transactions chronologically.
+      4. Created New Columns: Added a new column to have more calculations like Revenue
+
+### Data Analysis
+---
+Some of the code used to analysed the data are:
+```Excel
+VLOOKUP(lookup_value,table_array,col_index-number,[range_lookup])
+LEFT(text,[num_char])
+SUMIF(range,criteria,[sum_range])
+```
+```SQL
+SELECT * FROM [dbo].[LITA Capstone Dataset (1) CSV]
+WHERE condition = True
+
+select Region, count (*) As
+Total_Sales_Transactions
+From [dbo].[LITA Capstone Dataset (1) CSV]
+group by Region
+```
+```Power Bi
+Total Customer = COUNT('Customer Data B'[CustomerID])
+Total Revenue of Sales = SUM('Sales Data B'[Total sales])
+```
+
+### Data Visualization
+---
+![sales data](https://github.com/user-attachments/assets/4a39c2d2-c89f-4e7c-b55d-b761ad7a5e96)
+
+![sales Pivot](https://github.com/user-attachments/assets/0b0c1986-2ea1-470a-b2df-bd969ee7f0c2)
+
+![Sales Visual](https://github.com/user-attachments/assets/58222fc8-b20c-44b5-91dd-953efeafb668)
+
+
