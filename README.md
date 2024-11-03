@@ -19,8 +19,6 @@
 
 [Data Visualization](#data-visualization)
 
-[Table](#table)
-
 [Insights](#insights)
 
 [Recommendations](#recommendations)
