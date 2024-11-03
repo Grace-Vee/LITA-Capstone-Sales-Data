@@ -106,7 +106,7 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 
 ![sales Pivot](https://github.com/user-attachments/assets/0b0c1986-2ea1-470a-b2df-bd969ee7f0c2)
 
-![Sales Visual](https://github.com/user-attachments/assets/58222fc8-b20c-44b5-91dd-953efeafb668)
+![Sales Visual](https://github.com/user-attachments/assets/2fd28311-13c9-49c6-bd08-e12dbc35a252)
 
 ![sales chats](https://github.com/user-attachments/assets/9fe72e3e-27fe-46d0-8c5d-fd97a2db2364)
 
@@ -125,3 +125,8 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 ![sales SQL 8](https://github.com/user-attachments/assets/8be58cd9-8c5e-4934-9f84-f8a6147ee2ba)
 
 ![sales SQL](https://github.com/user-attachments/assets/5f355db7-15a6-4f0a-9abe-0c0c0479b609)
+
+### Insights
+---
+- The visual showed that:
+    1. Average age of Staff in the company is 37 years, which shows that the organization have more younger staff than the elderly ones.
