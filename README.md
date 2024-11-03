@@ -128,7 +128,7 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 
 ### Insights
 ---
--The visual showed:
+- The visual showed:
    1. Sales Revenue; Total revenue of sales is 2 million naira, while average sales is 211.8 naira,, which showed the store to be performing moderately okay, but a lot need to
      be put in place to increase the performance of the store.
    2. Top selling products: Top selling products of the store are shoes, shirts and hats, these products need to be stocked up more to increase the sales performance of the store
