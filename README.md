@@ -148,6 +148,7 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
    4. Seasonal Perdformance: Seasonal trends should be studied, shirts and shoes which are the highest selling products should be well stocked up at all seasons, mostly in february.
    5. Price increment: Prices of top selling products should be increased at seasons when they are in high demands, to break even and increase sales performance
    6. Reliable suppliers of high selling products should be gotten, to ensure that these products are always available to customers to avaoid out of stock.
+   7. Customer satisfaction analysis: To sustain growth and boost loyalty, the shop should focus on exceeding the expectations of customers
 
  ### Thank You
 ---
