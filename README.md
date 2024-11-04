@@ -29,7 +29,7 @@ This project analyzed the sales performance of a retail store, aimed at addressi
 
 ### Data Sources
 ---
-Data used for this project was an excel data provided by the Incubator Hub LITA facilitators, the data was converted to CSV format, to be imported to SQL and make it eaccessible for analysis.
+Data used for this project was an excel data provided by the Incubator Hub LITA facilitators, the data was converted to CSV format,  before importing to SQL, for easy and seamless analysis.
 
 ### Data Description
 ---
@@ -69,8 +69,8 @@ During the initial phase of the data entry, the folowing actions were performed
 ### Data Transformation:
  ---
  - Data was transformed to thoroughly clean, remove issues with data and increase column quality, column distribution and profile to 100%
-      1. Data Types and Formatting: This was done to ensure all data fields were assigned the correct data types, with numerical fields formatted as whole numbers, text as text
-          and date fields set to date format. 
+      1. Data Types and Formatting: This was done to ensure all data fields were assigned the correct data types, with numerical fields formatted as whole numbers, 
+         text as text and date fields set to date format. 
       3. Sorting: Sorted the dataset by the Date column to organize transactions chronologically.
       4. Created New Columns: Added a new column to have more calculations like Revenue
 
@@ -84,7 +84,6 @@ SUMIF(range,criteria,[sum_range])
 ```
 ```SQL
 SELECT * FROM [dbo].[LITA Capstone Dataset (1) CSV]
-WHERE condition = True
 
 select Region, count (*) As
 Total_Sales_Transactions
@@ -92,7 +91,7 @@ From [dbo].[LITA Capstone Dataset (1) CSV]
 group by Region
 ```
 ```Power Bi
-Total Customer = COUNT('Customer Data B'[CustomerID])
+Total Customer = COUNT('sales Data B'[CustomerID])
 Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 ```
 
@@ -125,23 +124,26 @@ Total Revenue of Sales = SUM('Sales Data B'[Total sales])
 ### Insights
 ---
 - The visual showed:
-   1. Sales Revenue; Total revenue of sales is 2 million naira, while average sales is 211.8 naira,, which showed the store to be performing moderately okay, but a lot need to
-     be put in place to increase the performance of the store.
-   2. Top selling products: Top selling products of the store are shoes, shirts and hats, these products need to be stocked up more to increase the sales performance of the store
+   1. Sales Revenue: Total revenue of sales is 2 million naira, while average sales is 211.8 naira,, which showed the store to be performing moderately okay, but a 
+      lot need to be put in place to increase the performance of the store.
+   2. Top selling products: Top selling products of the store are shoes, shirts and hats, these products need to be stocked up more to increase the sales performance 
+      of the store
    3. Low Selling products: Low selling products are socks and jackets, these products should be stocked moderately to reduce having them in shelf for a long time.
    4. Regional Performance: South has the highest regional performance, followed by East, while West has the lowest performance by regions.
-   5. Monthly sales Trends: February has the highest sales, followed by July then January, probably because of their dry weather condition, which would require customers to purchase 
-       more light cloths like shirts and shoes, to protets their feets from the harsh rays of february sun.
+   5. Monthly sales Trends: February has the highest sales, followed by July then January, probably because of their dry weather condition, which would require 
+      customers to purchase more light cloths like shirts and shoes, to protets their feets from the harsh rays of february sun.
  
 ### Recommendations
 ---
 - The followings were recommended based on findings from the Data Analysis, which enabled us took informed decisions such as:
-   1. Aggressive Marketing: Aggressive marketing should be carried out accross all regions and this should be more intense in regions with low performance, to boost sales.
-   2. Product Awareness: Awareness, promotions, loyalty rewards, and targeted marketing should be carried out on products with low sales, to increase their performance and drive 
-     growth.
-   3. Product stock: The shop should focus on stocking more of products with high performance and stock less of low selling products, to ensure availability of these products at all 
-     times, to increase sales performance
-   4. Seasonal Perdformance: Seasonal trends should be studied, shirts and shoes which are the highest selling products should be well stocked up at all seasons, mostly in february.
+   1. Aggressive Marketing: Aggressive marketing should be carried out accross all regions and this should be more intense in regions with low performance, to boost 
+      sales.
+   2. Product Awareness: Awareness, promotions, loyalty rewards, and targeted marketing should be carried out on products with low sales, to increase their 
+      performance and drive growth.
+   3. Product stock: The shop should focus on stocking more of products with high performance and stock less of low selling products, to ensure availability of these 
+      products at all times, to increase sales performance
+   4. Seasonal Perdformance: Seasonal trends should be studied, shirts and shoes which are the highest selling products should be well stocked up at all seasons, 
+      mostly in february.
    5. Price increment: Prices of top selling products should be increased at seasons when they are in high demands, to break even and increase sales performance
    6. Reliable suppliers of high selling products should be gotten, to ensure that these products are always available to customers to avaoid out of stock.
    7. Customer satisfaction analysis: To sustain growth and boost loyalty, the shop should focus on exceeding the expectations of customers
